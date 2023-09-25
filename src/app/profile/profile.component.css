@@ -1,0 +1,35 @@
+.navbar-list {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+  }
+  
+ 
+  
+  .navbar-item.dropdown {
+    position: relative;
+  }
+  
+  .navbar-dropdown {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 175px;
+    z-index: 1;
+  }
+  
+  .dropdown-item {
+    padding: 10px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+/* Remplacez cette ligne */
+.navbar-item.dropdown:hover .navbar-dropdown {
+    display: block;
+  }
+   
+  .is-expanded{
+    height: 200%;
+  }
